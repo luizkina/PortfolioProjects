@@ -1,3 +1,7 @@
+# ESS11 Happiness Project
+
+![Panel](https://github.com/luizkina/PortfolioProjects/blob/main/ess11%20data/TableauPanel.png)
+
 Data source and meaning of labels for each column in the original table:
 https://ess.sikt.no/en/datafile/242aaa39-3bbb-40f5-98bf-bfb1ce53d8ef/110?tab=0
 
@@ -20,4 +24,6 @@ On the SQL file, first there was a check for any null values and there wasn't.
 Then a query was created for finding the distribution of each gender on each country.
 After that, there was a query for happiness acording to: the country, the political leaning (left or right) and gender.
 
-Since the poll could feature values over 10 if the person didn't know, didn't answer or refused to respond, there was a filter for it on each of the queries. On the lrscale (scale of left to right leaning), the value could also be over 10 for the same reasons as the happiness poll. Regarding the gender, there were 3 possible values, 1 was male, 2 was female and 9 was a non answer. Finally, regarding the time of internet use, the answers could be invalid for the same reasons as stated before. But since the time of internet use could vary from 0 to 1000, it was decided to group them in groups of 30 minutes. Since the really high values didn't have enough data (sometimes 1 or 2 people), there was a filter created that each group had to have at least 10 people. 
+Since the poll could feature values over 10 if the person didn't know, didn't answer or refused to respond, there was a filter for it on each of the queries. On the lrscale (scale of left to right leaning), the value could also be over 10 for the same reasons as the happiness poll. Regarding the gender, there were 3 possible values, 1 was male, 2 was female and 9 was a non answer. Finally, regarding the time of internet use, the answers could be invalid for the same reasons as stated before. But since the time of internet use could vary from 0 to 1000, it was decided to group them in groups of 30 minutes. Since the really high values didn't have enough data (sometimes 1 or 2 people), there was a filter created that each group had to have at least 10 people.
+
+The final tableau panel can be better seen at https://public.tableau.com/app/profile/luiz.kina/viz/Analysisofhappinessfromess11/Painel1
